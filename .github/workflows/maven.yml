@@ -36,7 +36,7 @@ jobs:
 
 # 도커 이미지 빌드
     - name: Build the Docker image
-      run: docker build -t {이미지 경로} .
+      run: docker build -t damho/testrepo .
       
 # 이미지 띄우기
     - name: push Docker image
