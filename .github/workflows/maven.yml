@@ -51,4 +51,4 @@ jobs:
         key: ${{ secrets.SSH_KEY }}         # user 개인키
         port: ${{ secrets.SSH_PORT }}       # ssh 포트
         script_stop: true
-        script: "./{실행시킬 shell 파일명}"
+        script: "./startup.sh"
